@@ -7,8 +7,10 @@ using UnityEngine;
 namespace TypeObjectSystem.Tests.TypeObjectSystem {
     [TestFixture]
     public class TypeObjectSystemTest {
+        private const string BaseFolderName = "ch.flaviakim.typeobjectsystem";
+
         private static readonly string BasePath =
-            Path.Combine("Packages", "TypeObjectSystem", "Tests", "Runtime", "Assets");
+            Path.Combine("Packages", BaseFolderName, "Tests", "Runtime", "Assets");
 
         private static readonly string TilesRelativePath = Path.Combine("TileExample", "Tiles");
 
